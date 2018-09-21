@@ -1,0 +1,130 @@
+body{
+    background-color: #f8f8f8;
+
+}
+.menu{
+    font-size: 15px;
+    font-family: sans-serif;
+    float: right;
+}
+.menu li{
+    list-style-type: none;
+    display: inline;
+}
+.menu a{
+    text-decoration: none;
+    color:brown;
+}
+.style_h1{
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+.small_content{
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+.big_content{
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align:left;
+}
+.XT_li{
+    color: darkgreen;
+    list-style-type: square;
+    font-size: 15px;
+    font-style: oblique
+}
+.form{
+    height: 30px;
+    color:green;
+    font-family: fantasy;
+    font-size: 14px;
+    background-color: antiquewhite;
+    
+}
+.form-email{
+    height: 30px;
+    font-family: fantasy;
+    font-size: 14px;
+    background-color: antiquewhite;
+    color: green;
+}
+.form-email:focus {
+    color: green;
+    background-color: darkgrey;  
+}
+.formS{
+    text-transform: capitalize;
+}
+.menu a:hover{
+    background-color: antiquewhite;
+}
+container{
+    width: 1020px;
+    margin: 0 auto;  
+}
+header{
+    height: 180px;
+}
+.logo{
+    margin-left: 15px;
+}
+footer{
+    height: 100px;
+    background-color: antiquewhite;
+    float:right;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.content{
+    width: 400px;
+    height: 190px;
+}
+.content-img{
+    float: left;
+    width: 120px;
+}
+.content-img1{
+    float: left;
+    width: 200px;
+}
+a.buy{
+border-radius: 4px;
+color:#fff;
+display:block;
+width:100px;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 14px;
+padding: 8px 16px;
+margin: 20px auto;
+text-decoration: none;
+text-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+-webkit-transition: background-color 0.1s linear;
+-moz-transition: background-color 0.1s linear;
+-o-transition: background-color 0.1s linear;
+transition: background-color 0.1s linear;        
+}
+a.buy {
+background-color: rgb( 43, 153, 91 );
+border: 1px solid rgb( 33, 126, 74 );
+}
+        
+a.buy:hover {
+background-color: rgb( 75, 183, 141 );
+}
+.catalog{
+    width: 600px;
+    height: 400px;
+}
+.catalog-nav{
+    width: 200px;
+    float: left;
+   margin-top: 10px;
+}
